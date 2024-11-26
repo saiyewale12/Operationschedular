@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operation Scheduler</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Operation Scheduler</h1>
+  </header>
+
+  <main>
+    <form id="scheduleForm">
+      <input type="text" id="operationId" placeholder="Operation ID" required>
+      <input type="text" id="anesthesia" placeholder="Anesthesia Used" required>
+      <input type="date" id="operationDate" required>
+      <textarea id="remarks" placeholder="Remarks"></textarea>
+      <button type="submit">Add Schedule</button>
+    </form>
+
+    <h2>Schedules</h2>
+    <div id="schedules"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
